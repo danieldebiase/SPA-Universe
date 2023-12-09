@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --white-mood: #E1E1E6;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  height: 12.2rem;
+  padding: 4.0rem 71.9rem 4.0rem 7.2rem;
+}
+
+nav {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+h1 {
+  color: var(--white-mood);
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%; /* 60px */
+}
+
+p {
+  color: var(--white-mood);
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  width: 64.8rem;
+  margin-top: 1.6rem;
+}
+
+.fundo {
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+#pos {
+  margin-left: 10rem;
+  margin-top: 6.3rem;
+}
+
+#cen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 14rem;
+}
+
+#cen h1 {
+  margin-bottom: 2.4rem;
+}
+
+a {
+  color: #C4C4CC;
+  font-size: 2.1667rem;
+  font-weight: 400;
+  line-height: 2.1667rem; /* 100% */
+  text-decoration: none;
+}
+
+a:visited, a:hover {
+  color: #FFF;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.1667rem; /* 90.278% */
+}
+
+button {
+  display: inline-flex;
+  padding: 1.2rem 3.2rem;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+  color: #02799D;
+
+  border-radius: .5rem;
+  border: .2rem solid #FFF;
+
+
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem; /* 171.429% */
+  text-transform: uppercase;
+
+}
